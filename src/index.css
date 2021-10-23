@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .rounded-l-10xl{
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+    }
+
+
+}
+
+.page-title{
+    @apply font-bold md:text-xl text-base text-purple-500 mr-4 ;
+}
+
+.page-min-title{
+    @apply md:text-xl text-base ;
+}

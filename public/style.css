@@ -1,0 +1,266 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?y09kvm');
+  src:  url('fonts/icomoon.eot?y09kvm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?y09kvm') format('truetype'),
+    url('fonts/icomoon.woff?y09kvm') format('woff'),
+    url('fonts/icomoon.svg?y09kvm#icomoon') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'icomoone';
+  src:  url('lastfont/icomoon.eot?gttykw');
+  src:  url('lastfont/icomoon.eot?gttykw#iefix') format('embedded-opentype'),
+    url('lastfont/icomoon.ttf?gttykw') format('truetype'),
+    url('lastfont/icomoon.woff?gttykw') format('woff'),
+    url('lastfont/icomoon.svg?gttykw#icomoon') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]:not(.icon-chat), [class*=" icon-"]:not(.icon-chat) {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family:  'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chat {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family:  'icomoone' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-moon:before {
+  content: "\e90d";
+}
+.icon-paper-plane:before {
+  content: "\e90b";
+}
+
+.icon-chat:before {
+  content: "\e900";
+}
+
+.icon-information-solid:before {
+  content: "\e906";
+}
+.icon-search:before {
+  content: "\e901";
+}
+.icon-heart:before {
+  content: "\e90c";
+}
+.icon-heartbeat:before {
+  content: "\e908";
+}
+.icon-dangerous:before {
+  content: "\e909";
+}
+.icon-coronavirus:before {
+  content: "\e90a";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
+.icon-instagram:before {
+  content: "\e904";
+}
+.icon-github:before {
+  content: "\e905";
+}
+.icon-mail:before {
+  content: "\e907";
+}
+.icon-sun:before {
+  content: "\e90e";
+}
+.icon-flag:before {
+  content: "\e902";
+}
+.icon-home:before {
+  content: "\e900";
+}
+.icon-radio-unchecked:before {
+  content: "\ea56";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-orange-400{
+  color:#FB923C;
+}
+.bg-orange-200{
+background:
+#FED7AA;}
+
+.h-200{
+  height:700px;
+}
+
+.h-120{
+  height:430px;
+}
+
+.h-130{
+  height:530px;
+}
+
+
+.bar-enter-from{
+  opacity:0;
+  left:-10000px;
+}
+
+.bar-leave-to{
+  opacity:0;
+}
+
+.bar-enter-to{
+  opacity:1;
+}
+
+.bar-leave-from{
+  opacity:1;
+}
+
+.bar-enter-active , .bar-leave-active{
+  transition:0.5s ease;
+}
+
+
+
+
+
+
+.team .member .pic {
+  overflow: hidden;
+  width: 154px;
+  height:165px;
+}
+@media only screen and (max-width: 500px) {.team .member .pic {
+  overflow: hidden;
+  width: 95%;
+  height:auto;
+}}
+@media only screen and (max-width: 640px) {.team .member .pic {
+  overflow: hidden;
+  width: 85%;
+  margin-left:7.5%;
+  height:auto;
+}
+}
+.team .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.team .member:hover img {
+  transform: scale(1.14);
+}
+
+
+.team .member h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.team .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+
+
+.team .member p {
+  font-size: 14px;
+}
+
+.team .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.team .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+}
+
+.team .member .social a span {
+  font-size: 19px;
+  margin: 0 2px;
+}
+
+
+
+.team .member .social a + a {
+  margin-left: 8px;
+}
+
+
+
+
+.radius-l-10xl{
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+@media only screen and ( min-width:640px){
+  md:top-15{
+    top:6px;
+  }
+}
+
+
+
+
+
+.sidebar-active{
+	color:grey;
+}
